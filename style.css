@@ -1,0 +1,20 @@
+h1{
+        color: green;	
+        background-color:orange;
+          font-size:35pt;
+            }
+ #navul li {
+list-style-type:none;
+display:inline;
+padding-left:30px;
+padding-right:30px;
+}
+#navul li a {
+text-decoration:none;
+color:blue;
+font-size:20pt;
+
+}
+#navul li a :hover{
+color:red;
+}
