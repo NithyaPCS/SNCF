@@ -1,20 +1,34 @@
-h1{
+h1
+{
         color: green;	
         background-color:orange;
-          font-size:35pt;
-            }
+          font-size:34pt;
+         
+   }
+
+#nav
+{
+ width:100%;height:30px;background-color:lightgreen;
+}
+#navul{width:1000px;}
  #navul li {
-list-style-type:none;
+
+ list-style-type:none;
 display:inline;
 padding-left:30px;
 padding-right:30px;
-}
+ }
+
 #navul li a {
+
 text-decoration:none;
 color:blue;
-font-size:20pt;
+font-size:20pt; 
+}
 
-}
-#navul li a :hover{
-color:red;
-}
+li>a:hover{background:pink;
+border-right:1px solid gray; border-left:1px solid gray;}
+#tab
+{
+color:blue; font-size:20pt;}
+
